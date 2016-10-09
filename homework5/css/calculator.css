@@ -1,0 +1,98 @@
+body {
+    font-family: "Microsoft YaHei","微软雅黑", serif;
+}
+
+h1 {
+    text-align: center;
+    color: #00adee;
+    margin: 15px 0 10px 0;
+}
+
+.calculator-pos {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width: 400px;
+    height: 565px;
+    background-color: #535353;
+    border-radius: 35px;
+}
+
+.calculator-container {
+    border: 5px solid;
+    border-radius: 10px 10px 35px 35px;
+    border-color: #929090;
+    height: 400px;
+}
+
+.result {
+    height: 70px;
+    left: auto;
+    width: 300px;
+    border-radius: 8px;
+    border: 5px solid #999;
+    background-color: #ffffff;
+    color: #545454;
+    font-size: 30px;
+    text-align: right;
+    margin: 0 0 10px 50px;
+    overflow: auto;
+}
+
+#history {
+    font-size: 15px;
+}
+
+.button-group {
+    margin: 5px 0 0 30px;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    color: #d9eef7;
+    border: solid 2px;
+    border-color: #0076a3;
+    border-radius: 50%;
+    background: #0095cd;
+    margin: 4px;
+}
+
+.operator, #backspace, #clear {
+    border-color: #da7c0c;
+    background: #f78d1d;
+}
+
+#equal {
+    border-color: #538312;
+    background: #64991e;
+}
+
+button:hover {
+    background: #007ead;
+}
+
+.operator:hover, #backspace:hover, #clear:hover {
+    background: #f47c20;
+}
+
+#equal:hover {
+    background: #538018;
+}
+
+button:active {
+    color: #80bed6;
+}
+
+#divide:active, #backspace:active, #clear:active {
+    color: #fcd3a5;
+}
+
+#equal:active {
+    color: #a9c08c;
+}
+
+button:focus {
+    outline: 0;
+}
